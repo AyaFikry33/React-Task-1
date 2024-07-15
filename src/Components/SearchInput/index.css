@@ -1,0 +1,22 @@
+/* Styles for the search input field */
+.search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-input:focus {
+    border-color: #007BFF; 
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #999;
+    font-style: italic;
+}
