@@ -26,12 +26,10 @@ const List = ({searchValue}) => {
         {
             filteredProducts?.map((product) =>
                 <div className="product-box" key={product.id}>
-                    <a href="g">
-                        <img src={product.image} alt="" />
-                        <p>{product.title}</p>
-                        <span>{product.price}</span>
-                        <p>{product.description}</p>
-                    </a>
+                    <img src={product.image} alt="" />
+                    <p>{product.title}</p>
+                    <span>{product.price}</span>
+                    <p>{product.description}</p>
                 </div>
             )
         }
